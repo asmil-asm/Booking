@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { useActions } from '../../store/useStore';
 import { useHotelsQuery } from '../../services/HandleAPI';
-import Loading from '../Loading/Laoding';
+import Loading from '../Loading/Loading';
 const MoudelRoom = ({ useId }) => {
 const {id}=useParams();
 const {setShowMoudelroom}=useActions();

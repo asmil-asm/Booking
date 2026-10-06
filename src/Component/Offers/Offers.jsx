@@ -6,13 +6,13 @@ import 'swiper/css/pagination';
 import { motion } from 'framer-motion'
 import {useHotelsQuery} from '../../services/HandleAPI'
 import {useNavigate} from 'react-router-dom'
-import Loading from '../Loading/Laoding';
+import Loading from '../Loading/Loading';
 import './Offers.css'
 const Offers = () => {
       const navigate=useNavigate()
     const {data:hotels,isLoading}=useHotelsQuery()
     if(isLoading || !hotels) return <Loading/>
-    const offers=hotels?.filter((hotel)=>hotel.offer>20)|| []
+    const offers=Array.isArray(hotels)?hotels.filter((hotel)=>hotel.offer>20): []
     if(!offers) return []
   return (
     <section className="Offers">

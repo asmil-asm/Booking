@@ -61,8 +61,8 @@ const Testimonail = () => {
    
 </div>
  <div className="stars">
-    {Array.from({length:info.rating}).map(()=>(
-        <FaStar/>
+    {Array.from({length:info.rating}).map((index)=>(
+        <FaStar key={index}/>
     ))}
  </div>
     <p>{info.review}</p>

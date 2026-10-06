@@ -1,8 +1,8 @@
 @import "tailwindcss";
  .image-home{
-    background-image: url('/assets/Home/hero.png');
+    background-image: url('/assets/Home/hero.webp');
     background-size: cover;
-    @apply relative w-full pt-4 pb-4
+    @apply relative w-full pt-4 pb-4 bg-blue-50/90
 }
 
 .image-home .shadow{

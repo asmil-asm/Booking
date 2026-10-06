@@ -10,7 +10,7 @@ import MoudelRoom from "./MoudelRoom";
 import { useState } from "react";
 import { useActions } from "../../store/useStore";
 import { useHotelsQuery } from '../../services/HandleAPI';
-import Loading from '../Loading/Laoding';
+import Loading from '../Loading/Loading';
 
 const Rooms = () => {
   const { id } = useParams();

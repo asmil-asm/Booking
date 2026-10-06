@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { lazy, Suspense } from "react";
-import Loading from "../Component/Loading/Laoding";
+import Loading from "../Component/Loading/Loading";
 import ProtectedRoute from "./ProtectedRoute";
 
 // Lazy loading 
@@ -17,9 +17,9 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: (
-      <Suspense fallback={<Loading />}>
+      <Suspense fallback={<Loading/>}>
         <Layout />
-      </Suspense>
+        </Suspense>
     ),
     errorElement: (
       <Suspense fallback={<Loading />}>

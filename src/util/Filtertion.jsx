@@ -5,7 +5,7 @@ const Filtertion = () => {
     const {data:hotels,isLoading}=useHotelsQuery()
     const filter=useChange((state)=>state.filter)
     const visiableHotels=useMemo(()=>{
-if(!hotels) return []
+if (!hotels || !Array.isArray(hotels)) return [];
 const term = filter.search.trim().toLowerCase();
 const result=hotels.filter((hotel)=>{
     const matchSearch=!term || hotel.name?.toLowerCase().includes(term)

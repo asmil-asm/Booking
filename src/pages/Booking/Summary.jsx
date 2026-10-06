@@ -2,7 +2,7 @@ import { FaLock } from 'react-icons/fa';
 import './Booking.css';
 import { useParams } from 'react-router-dom';
 import { useHotelsQuery } from '../../services/HandleAPI';
-import Loading from '../../Component/Loading/Laoding';
+import Loading from '../../Component/Loading/Loading';
 import { useActions } from '../../store/useStore';
 const Summary = ({submit}) => {
   const { id } = useParams();

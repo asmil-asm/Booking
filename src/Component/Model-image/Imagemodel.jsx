@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import './Imagemodel.css'
 import{ useActions} from '../../store/useStore'
 import { useHotelsQuery } from "../../services/HandleAPI"
-import Loading from "../Loading/Laoding"
+import Loading from "../Loading/Loading"
 const Imagemodel = () => {
    const {setImages}=useActions()
     const {id}=useParams();

@@ -8,7 +8,7 @@ import './HotelData.css'
 import { useActions } from '../../store/useStore';
 import { useHotelsQuery } from '../../services/HandleAPI';
 import DynamicIcon from '../../data/DynamicIcon';
-import Loading from "../../Component/Loading/Laoding";
+import Loading from "../../Component/Loading/Loading";
 const HotelData = () => {
 const {images,setImages,readMore,setReadMore}=useActions()
 const{data:hotels,isLoading}=useHotelsQuery()

@@ -1,29 +1,25 @@
-import js from '@eslint/js'
-import globals from 'globals'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
-import { defineConfig, globalIgnores } from 'eslint/config'
+import { setupWorker } from 'msw/browser';
+import { handlers } from './handlers';
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{js,jsx}'],
-    extends: [
-      js.configs.recommended,
-      reactHooks.configs.flat.recommended,
-      reactRefresh.configs.vite,
-    ],
-    languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module',
-      },
+export const worker = setupWorker(...handlers);
+
+export function enableMocking() {
+  const isProduction = import.meta.env?.PROD || process.env.NODE_ENV === 'production';
+
+  if (isProduction) {
+    return Promise.resolve();
+  }
+
+  return worker.start({
+    onUnhandledRequest(request, print) {
+      if (
+        request.url.includes('clerk.accounts.dev') ||
+        request.url.includes('img.clerk.com')
+      ) {
+        return;
+      }
+
+      print.warning();
     },
-    rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
-    },
-  },
-])
+  });
+}

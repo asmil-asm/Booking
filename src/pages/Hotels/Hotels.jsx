@@ -5,7 +5,7 @@ import { CiLocationOn } from "react-icons/ci";
 import './Hotels.css'
 import { useNavigate } from 'react-router-dom';
 import Filter from '../../Component/Filter/Filter';
-import Loading from "../../Component/Loading/Laoding";
+import Loading from "../../Component/Loading/Loading";
 import Filtertion from '../../util/Filtertion';
 import { useChange } from '../../store/useStore';
 import { useEffect } from 'react';
