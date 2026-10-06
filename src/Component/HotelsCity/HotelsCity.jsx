@@ -25,40 +25,31 @@ const HotelsCity = () => {
 <Swiper 
       modules={[Autoplay,Pagination]}
       spaceBetween={30}
+      observer={true}
+observeParents={true}
       centeredSlides
-      loop={true}
+loop={uniqueCountries.length >= 6}
       pagination={{ clickable: true }}
     slidesPerView={3}
          speed={800}
-         autoplay={{
-            delay:2500,
-             stopOnLastSlide: false,
-         }}
-          breakpoints={{
-
-                  768: {
-      slidesPerView: 3,
-    },
-    250:{
-              slidesPerView: 1,
-    },
-    500:
-    {
-              slidesPerView: 2,
-
-    }
-     
-
-          }}
+        autoplay={{
+  delay: 2500,
+  disableOnInteraction: false,
+  pauseOnMouseEnter: true,
+}}
+         breakpoints={{
+  250: { slidesPerView: 1 },
+  500: { slidesPerView: 2 },
+  768: { slidesPerView: 3 },
+}}
     
 
         >
 
-        <div>
-{uniqueCountries.map((item ,index)=>
-    (
-<SwiperSlide onClick={()=>handleCountries(item.country)} key={index} className='city'>
-<img src={item.image} alt="not found" loading='lazy' />
+{uniqueCountries.map((item )=>
+   (
+<SwiperSlide onClick={()=>handleCountries(item.country)} key={item.country} className='city'>
+<img src={item.image} alt={`${item.country} city`} loading='lazy' />
 <div className="text">
     <h3>{item.country}</h3>
 </div>
@@ -66,7 +57,6 @@ const HotelsCity = () => {
     )
     
 )}
-</div>
 
 </Swiper>
 </div>

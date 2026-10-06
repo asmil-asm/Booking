@@ -3,10 +3,11 @@ import { useLocation } from 'react-router-dom';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
 
-NProgress.configure({ 
-  showSpinner: false, 
-  speed: 500,        
-  minimum: 0.3       
+NProgress.configure({
+  showSpinner: false,
+  speed: 400,
+  minimum: 0.2,
+  trickleSpeed: 200,
 });
 
 export default function PageLoader() {
@@ -21,7 +22,6 @@ export default function PageLoader() {
 
     return () => {
       clearTimeout(timer);
-      NProgress.done();
     };
   }, [location.pathname, location.search]);
 

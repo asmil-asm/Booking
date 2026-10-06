@@ -29,18 +29,20 @@ resetForm()
         <div className="data">
          <label htmlFor="check-in">Check-in</label>
         <br/>
+
         <input onChange={handelForm} value={form.checkin} id='check-in' type="date" name='check-in' />
                    <br/>
-           <label htmlFor="guests">Guests</label>
+                    <label htmlFor="check-out" >Check-out</label>
         <br/>
-        <input onChange={handelForm} value={form.guest}  id='guests' type="number" min={1} name='guest' />
+        <input onChange={handelForm}  value={form.checkout} id='check-out' type="date" name="check-out" />
+           
         
     </div>
     
     <div className="data">
-         <label htmlFor="check-out" >Check-out</label>
+        <label htmlFor="guests">Guests</label>
         <br/>
-        <input onChange={handelForm}  value={form.checkout} id='check-out' type="date" name="check-out" />
+        <input onChange={handelForm} value={form.guest}  id='guests' type="number" min={1} name='guest' />
           <br/>
       
          <label htmlFor="romms">Rooms</label>

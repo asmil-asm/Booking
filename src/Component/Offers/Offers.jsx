@@ -25,31 +25,23 @@ const Offers = () => {
 <Swiper
  modules={[Autoplay,Pagination]}
       spaceBetween={30}
+      observer={true}
+observeParents={true}
       centeredSlides
 loop={offers.length > 3}
       pagination={{ clickable: true }}
     slidesPerView={3}
          speed={800}
-         autoplay={{
-            delay:2500,
-             stopOnLastSlide: false,
-         }}
-          breakpoints={{
-
-                  768: {
-      slidesPerView: 3,
-    },
-    250:{
-              slidesPerView: 1,
-    },
-    500:
-    {
-              slidesPerView: 2,
-
-    }
-     
-
-          }}>
+       autoplay={{
+  delay: 2500,
+  disableOnInteraction: false,
+  pauseOnMouseEnter: true,
+}}
+         breakpoints={{
+  250: { slidesPerView: 1 },
+  500: { slidesPerView: 2 },
+  768: { slidesPerView: 3 },
+}}>
      {offers.map((hotel) => {
             return (
               <SwiperSlide key={hotel.id} className="card">
