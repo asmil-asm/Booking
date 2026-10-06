@@ -1,6 +1,6 @@
 @import "tailwindcss";
  .image-home{
-    background-image: url('../../assets/Home/hero.png');
+    background-image: url('/assets/Home/hero.png');
     background-size: cover;
     @apply relative w-full pt-4 pb-4
 }

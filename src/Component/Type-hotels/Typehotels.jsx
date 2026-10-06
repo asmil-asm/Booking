@@ -37,7 +37,7 @@ navigate('/hotels')
 
      initial={{skewX:10,}}    
     whileInView={{skewX:0,  transition:{duration:3}}}>
-<img src={type.hotelImage} alt={type.type} />
+<img src={type.hotelImage} alt={type.type} loading='lazy' />
             <div className='text'>
               <h3>{type.type}</h3>
               <IoIosArrowRoundForward className='icons' onClick={()=>handleType(type.type)} />

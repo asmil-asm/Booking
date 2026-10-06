@@ -53,7 +53,7 @@ loop={offers.length > 3}
      {offers.map((hotel) => {
             return (
               <SwiperSlide key={hotel.id} className="card">
-                <img src={hotel.image} alt={hotel.name || "hotel offer"} />
+                <img src={hotel.image} alt={hotel.name || "hotel offer"} loading='lazy'/>
                 <div className="info">
                   <h3>{hotel.name}</h3>
                   <p>{hotel.description}</p>

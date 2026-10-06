@@ -52,3 +52,12 @@ input[type="radio"]
     @apply bg-blue-700/80
      
  }
+ #nprogress .bar {
+  background: bg-blue-700!important; 
+  height: 4px !important;           
+   z-index: 99999 !important;       
+  }
+
+#nprogress .peg {
+  box-shadow: 0 0 10px bg-blue-700, 0 0 5px bg-blue-700 !important;
+}

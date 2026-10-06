@@ -61,7 +61,7 @@ const Rooms = () => {
               >
                 {room.images.map((image, idx) => (
                   <SwiperSlide key={idx} className="slider-images">
-                    <img src={image} alt={room.title} />
+                    <img src={image} alt={room.title}loading='lazy' />
                   </SwiperSlide>
                 ))}
               </Swiper>

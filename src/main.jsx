@@ -3,7 +3,6 @@ import './index.css';
 import AppRoutes from './routes/AppRoutes';
 import { ClerkProvider } from '@clerk/clerk-react';
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -32,7 +31,6 @@ enableMocking().then(() => {
     <QueryClientProvider client={queryClient}>
       <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
         <AppRoutes />
-        <ReactQueryDevtools initialIsOpen={false} />
       </ClerkProvider>
     </QueryClientProvider>
   );

@@ -58,7 +58,7 @@ const HotelsCity = () => {
 {uniqueCountries.map((item ,index)=>
     (
 <SwiperSlide onClick={()=>handleCountries(item.country)} key={index} className='city'>
-<img src={item.image} alt="not found" />
+<img src={item.image} alt="not found" loading='lazy' />
 <div className="text">
     <h3>{item.country}</h3>
 </div>
