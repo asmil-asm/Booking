@@ -674,7 +674,7 @@
       ],
       "publicImage": [
         "/assets/Hotels/Hotel7/Public1.webp",
-        "/assets/Hotels/Hotel7/Puplic2.webp",
+        "/assets/Hotels/Hotel7/Public2.jpg",
         "/assets/Hotels/Hotel7/Public3.webp"
       ]
     },
@@ -772,7 +772,7 @@
       "animatiesImage": [
         "/assets/Hotels/Hotel8/Aminities1.webp",
         "/assets/Hotels/Hotel8/Aminities2.webp",
-        "/assets/Hotels/Hotel8/Aminities3.webp"
+        "/assets/Hotels/Hotel8/Aminities3.jpg"
       ],
       "publicImage": [
         "/assets/Hotels/Hotel8/Public1.webp",
@@ -872,13 +872,13 @@
       ],
       "animatiesImage": [
         "/assets/Hotels/Hotel9/Aminities1.webp",
-        "/assets/Hotels/Hotel9/Aminities2.webp",
+        "/assets/Hotels/Hotel9/Aminities2.jpg",
         "/assets/Hotels/Hotel9/Aminities3.webp"
       ],
       "publicImage": [
         "/assets/Hotels/Hotel9/Public1.webp",
         "/assets/Hotels/Hotel9/Puplic2.webp",
-        "/assets/Hotels/Hotel9/Public3.webp"
+        "/assets/Hotels/Hotel9/Public3.jpg"
       ]
     },
     "Year": 2019,
@@ -972,12 +972,12 @@
         "/assets/Hotels/Hotel10/food3.webp"
       ],
       "animatiesImage": [
-        "/assets/Hotels/Hotel10/Aminities1.webp",
+        "/assets/Hotels/Hotel10/Aminities1.jpg",
         "/assets/Hotels/Hotel10/Aminities2.webp",
         "/assets/Hotels/Hotel10/Aminities3.webp"
       ],
       "publicImage": [
-        "/assets/Hotels/Hotel10/Public1.webp",
+        "/assets/Hotels/Hotel10/Public1.jpg",
         "/assets/Hotels/Hotel10/Puplic2.webp",
         "/assets/Hotels/Hotel10/Public3.webp"
       ]
@@ -1263,7 +1263,7 @@
     "rate": 5,
     "description": "A legendary luxury ski resort in the Swiss Alps. Offers panoramic lake views, gourmet dining, and winter sports activities.",
     "Hotel_images": {
-      "outImage": ["/assets/Hotels/Hotel13/hotel-out.webp"],
+      "outImage": ["/assets/Hotels/Hotel13/hotel-out.jpg"],
       "roomImage": [
         "/assets/Hotels/Hotel13/room1.webp",
         "/assets/Hotels/Hotel13/room2.webp",
@@ -1373,7 +1373,7 @@
       "foodImage": [
         "/assets/Hotels/Hotel14/food1.webp",
         "/assets/Hotels/Hotel14/food2.webp",
-        "/assets/Hotels/Hotel14/food3.webp"
+        "/assets/Hotels/Hotel14/food3.jpg"
       ],
       "animatiesImage": [
         "/assets/Hotels/Hotel14/Aminities1.webp",
@@ -1473,7 +1473,7 @@
       ],
       "foodImage": [
         "/assets/Hotels/Hotel15/food1.webp",
-        "/assets/Hotels/Hotel15/food2.webp",
+        "/assets/Hotels/Hotel15/food2.jpg",
         "/assets/Hotels/Hotel15/food3.webp"
       ],
       "animatiesImage": [
@@ -1573,7 +1573,7 @@
         "/assets/Hotels/Hotel16/room3.webp"
       ],
       "foodImage": [
-        "/assets/Hotels/Hotel16/food1.webp",
+        "/assets/Hotels/Hotel16/food1.jpg",
         "/assets/Hotels/Hotel16/food2.webp",
         "/assets/Hotels/Hotel16/food3.webp"
       ],
