@@ -1,0 +1,30 @@
+@import "tailwindcss";
+.amenities{
+    @apply mt-[100px] p-5 text-center
+}
+.amenities h2{
+    @apply text-4xl text-blue-950 font-bold mb-7  
+}
+.amenities p{
+    @apply text-2xl text-[#333] mt-1
+}
+.amenities .activties{
+
+    @apply grid mt-9 gap-3 p-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1
+}
+.amenities .activties .activity{
+    @apply rounded-xl p-2  bg-blue-950 hover:bg-blue-50 duration-300
+    hover:-translate-y-2
+    
+}
+.amenities .activties .activity .icon{
+    @apply text-[100px] text-white
+}
+.amenities .activties .activity p{
+    @apply text-2xl text-white mt-[100px] p-3
+}
+.amenities .activties .activity:hover.activity .icon,
+.amenities .activties .activity:hover.activity p{
+    @apply text-blue-950
+}
+

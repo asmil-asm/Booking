@@ -1,0 +1,21 @@
+@import "tailwindcss";
+ .aboutHotel{
+@apply bg-white rounded-2xl p-8 fixed top-[100px] left-[50%]
+    translate-x-[-50%]  overflow-y-scroll h-[500px] z-10
+}
+ .aboutHotel h3{
+    @apply text-2xl text-blue-950 font-bold mt-4
+}
+ .aboutHotel span{
+ padding:5px 10px;
+    @apply rounded-xl bg-blue-950 text-white font-bold text-center cursor-pointer 
+}
+ .aboutHotel .data{
+    @apply flex justify-between mt-4 items-center max-md:flex-col 
+}
+ .aboutHotel .data div p {
+    @apply text-[#444] text-xl mt-4  
+}
+ .aboutHotel .text p{
+    @apply text-[#333] text-[18px] mt-5 leading-8
+}

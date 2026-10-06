@@ -1,0 +1,36 @@
+@import "tailwindcss";
+form {
+  @apply bg-white/80 text-black p-4 sm:p-5 rounded-2xl mt-5 
+         w-[95%] sm:w-[85%] md:w-[700px] lg:w-[800px]
+         min-h-fit m-auto shadow-lg;
+}
+
+form h3 {
+  @apply text-blue-950 font-bold text-xl sm:text-2xl mb-4;
+}
+
+form label {
+  @apply text-gray-900 text-sm sm:text-base;
+}
+
+form input {
+  @apply outline-none border border-gray-400 focus:border-blue-950
+         w-full mt-2 mb-4 p-2 rounded-xl bg-white;
+}
+
+form .destination {
+  @apply w-full;
+}
+
+form .info {
+  @apply flex flex-col md:flex-row gap-4 md:gap-6 mt-4;
+}
+
+form .data {
+  @apply flex-1;
+}
+
+form button {
+  @apply mt-3 bg-blue-950 rounded-xl px-5 py-2 text-white
+         w-full md:w-fit hover:opacity-90 transition;
+}

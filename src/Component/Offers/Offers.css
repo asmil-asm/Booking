@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+.Offers {
+  @apply mt-[100px] p-5;
+}
+
+.Offers h2 {
+  @apply text-4xl text-blue-950 font-bold mb-7 text-center;
+}
+
+.Offers .cards {
+  @apply w-full mt-[50px] pb-10; 
+}
+
+.Offers .cards .card {
+  @apply rounded-2xl duration-500 shadow-xl  bg-white flex flex-col justify-between h-full overflow-hidden;
+}
+
+.Offers .cards .card img {
+  @apply w-full h-[200px] object-cover rounded-t-2xl;
+}
+
+.Offers .cards .card .info {
+  @apply text-center mt-2 px-3 flex-1;
+}
+
+.Offers .cards .card .info h3 {
+  @apply text-xl font-[700] text-[#333] line-clamp-1;
+}
+
+.Offers .cards .card .info p {
+  @apply text-[15px] text-[#555] p-1 line-clamp-2;
+}
+
+.Offers .cards .card .info .date {
+  @apply text-[16px] text-[#555] mt-3 font-[500];
+}
+
+.view-offer {
+  @apply flex justify-between items-center p-4 mt-auto border-t border-gray-100;
+}
+
+.view-offer span {
+  @apply text-blue-500 font-semibold text-sm;
+}
+
+.view-offer button {
+  @apply px-3 py-1.5 rounded-xl text-white text-[15px] bg-blue-950 hover:bg-blue-950/80 transition-colors;
+}

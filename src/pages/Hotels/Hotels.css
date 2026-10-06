@@ -1,0 +1,64 @@
+@import "tailwindcss";
+.main{
+    @apply p-3   mt-[100px]  relative
+}
+.main h1{
+    @apply text-blue-950 text-2xl text-center  font-bold
+}
+.main section{
+@apply  flex justify-around mt-15 gap-5 
+}
+
+.main .hotels{ 
+    @apply flex flex-col gap-4 
+     
+}
+.main .hotels .hotel{
+    @apply bg-[#EEEE] p-3 rounded-xl flex  gap-8 items-center 
+     duration-400 hover:-translate-y-1   flex-col lg:flex-row relative
+}
+.main .hotels .hotel .data{
+    @apply  max-w-full 
+}
+.main .hotels .hotel  img{
+    @apply h-[300px] rounded-2xl w-[400px]
+}
+.main .hotels .hotel .data h2{
+    @apply text-2xl text-blue-950 font-bold 
+}
+.main .hotels .hotel .data p{
+    @apply text-[15px] text-gray-700 flex items-center mt-3
+}
+
+
+.main .hotels .hotel .data .aminities h4{
+    @apply text-black text-[18px] mt-5 cursor-pointer mb-3
+}
+.main .hotels .hotel .data .aminities ul{
+    @apply flex  p-3 flex-wrap rounded-xl gap-1 
+}
+.main .hotels .hotel .data .aminities ul span{
+    @apply text-[15px] text-blue-300 font-[500] ml-4
+}
+.main .hotels .hotel .data .aminities ul  .icon{
+    @apply text-xl text-blue-400
+}
+
+.main .hotels .hotel .data h4{
+    @apply text-xl font-bold text-blue-300 mt-[3]
+}
+.main .hotels .hotel .data h4 span{
+    @apply text-black text-[15px]
+}
+.main .hotels .hotel .data .stars{
+    @apply flex items-center text-yellow-300 mt-3
+}
+.main .hotels .hotel button{
+    padding: 5px 15px;
+    @apply  bg-blue-950 text-white text-[15px]
+    font-bold rounded-xl bottom-4  absolute right-5 hover:bg-blue-900
+}
+
+
+
+

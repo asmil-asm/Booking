@@ -1,0 +1,67 @@
+@import "tailwindcss";
+.main .filter{
+    @apply border-1 border-blue-950 w-[20%] h-fit rounded-2xl p-4
+    pb-8 hidden lg:block
+    
+}
+.main .filter h3{
+    @apply text-blue-950 text-xl font-[500] mt-5
+}
+.main .filter .search{
+    @apply outline-none border-1 border-blue-950 w-full p-2 rounded-xl
+    mt-4
+}
+.main .filter .filter-data{
+    @apply flex gap-3 items-center mt-5
+}
+.main .filter .filter-data input{
+    @apply cursor-pointer
+}
+.main .filter .stars{
+    @apply text-amber-300  gap-2  float-left
+}
+.main .filter .filter-data label{
+    @apply text-[18px] 
+}
+.reset-filter{
+    @apply bg-blue-950 rounded-xl text-white px-3 py-1 mt-[10px]
+}
+
+
+
+/* Mobile */
+.filterIcons{
+    padding:5px 15px;
+    @apply bg-blue-400 text-white text-xl fixed
+   left-[50%] bottom-1 gap-1 lg:hidden  rounded-2xl  flex items-center cursor-pointer  
+sm:visible -translate-x-[50%] z-10
+}
+.filterMobiel{
+    @apply fixed   bg-white border-1 border-blue-950
+     bottom-1 w-full  p-6 left-0 lg:hidden overflow-y-auto h-[400px] z-20
+
+}
+.filterMobiel .filtering{
+    @apply gap-x-2 flex  justify-around items-center 
+}
+.filterMobiel h3{
+        @apply text-blue-950 text-xl font-[500] mt-2
+}
+
+.filterMobiel .search{
+      @apply outline-none border-1 border-blue-950 w-full p-2 rounded-xl
+    mt-4 
+}
+.filterMobiel .iconsMobile{
+    @apply  float-left
+}
+.filterMobiel .stars-label .stars{
+        @apply text-yellow-300 gap-2  float-left
+}
+
+.filterMobiel .filter-data{
+    @apply   gap-x-3 flex 
+}
+.filterMobiel button{
+    @apply bg-blue-950 text-[15px] p-1 rounded-xl text-white w-full hover:bg-blue-900 mt-2
+}

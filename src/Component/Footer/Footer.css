@@ -1,0 +1,43 @@
+@import "tailwindcss";
+footer{
+    @apply bg-blue-950 p-4 mt-[100px] text-white
+}
+footer .info{
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    @apply grid  p-2 gap-y-6 text-center border-b-1 border-blue-300 mb-2
+}
+footer .info h3{
+    @apply font-bold text-2xl mb-3
+}
+footer .info p{
+    @apply text-[15px] text-white
+}
+footer .info .title h2 {
+@apply flex text-3xl items-center
+}
+
+footer .info .links{
+    @apply ml-10
+}
+
+footer .info .links ul li{
+    @apply mt-2 hover:text-blue-300
+}
+footer .info .social >div{
+@apply flex items-center  gap-3 justify-center
+}
+footer .info .social .icons{
+    @apply text-xl cursor-pointer hover:text-blue-300 
+}
+footer .info .subscribe>div {
+    @apply mt-4 flex items-center  justify-center
+}
+footer .info .subscribe input{
+    @apply outline-none border-blue-300 border-1 h-full p-1 rounded-l-xl
+}
+footer .info .subscribe button{
+    @apply p-1 rounded-r-xl bg-blue-300  h-full 
+}
+footer > p{
+    @apply text-center mt-4 
+}

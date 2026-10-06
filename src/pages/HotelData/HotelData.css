@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+.hotel-data{
+
+    @apply mt-[70px] mb-[-100px] p-5 w-full bg-[#EEEE] relative
+}
+ 
+
+.hotel-data .info-hotel{
+    @apply bg-white p-6 mt-5 rounded-xl
+}
+.hotel-data .info-hotel .title{
+    @apply flex items-center gap-x-3 mb-5
+}
+.hotel-data .info-hotel .title h1{
+    @apply text-blue-950 text-3xl font-bold max-md:text-2xl
+}
+.hotel-data .info-hotel .title .rate{
+    @apply flex items-center text-xl text-yellow-400 max-md:text-[18px]
+}
+.hotel-data .info-hotel .location{
+    @apply flex items-center gap-x-2 mb-5 text-xl text-[#333]
+}
+.hotel-data .images{
+    @apply flex max-w-full   gap-4  max-md:flex-col
+}
+.hotel-data .images img{
+    @apply rounded-xl cursor-pointer w-full
+}
+.hotel-data .images .servicesImages{
+   @apply flex flex-col gap-2
+}
+.hotel-data .images .servicesImages .imageServ{
+    @apply flex gap-2 h-full 
+}
+
+.hotel-data .images .servicesImages .imageServ img{
+    @apply w-[250px] 
+}
+
+.hotel-data .images  img{
+    @apply h-full 
+}
+.hotel-data .images .servicesImages .imageServ:last-of-type div:last-of-type{
+    @apply relative
+}
+.hotel-data .images .servicesImages .imageServ:last-of-type div:last-of-type::before{
+    content:attr(set-data);
+    @apply absolute top-0 left-0 w-full h-full bg-black/50 cursor-pointer
+    flex justify-center items-center text-white font-bold text-2xl
+}
+
+.hotel-data .information-hotel{
+    @apply mt-[100px] p-3
+}
+
+.hotel-data .information-hotel  h2{
+
+    @apply mb-3 text-2xl font-bold text-blue-950 ;
+}
+.hotel-data .information-hotel .animinties .activities{
+    @apply flex  gap-7 justify-center max-md:grid max-md:grid-cols-2 
+}
+.hotel-data .information-hotel .animinties .activities .active{
+    @apply flex flex-col items-center justify-center text-center
+}
+
+
+.hotel-data .information-hotel .facilities
+{
+    @apply mt-6
+}
+
+.hotel-data .information-hotel .facilities .places{
+    @apply flex  gap-10 justify-center flex-wrap mt-5  max-lg:grid max-lg:grid-cols-2
+}
+.hotel-data .information-hotel .facilities .places .place{
+    @apply flex  items-center justify-center  gap-3 max-md:flex-col text-center
+
+}
+.hotel-data .information-hotel  h3,
+.hotel-data .information-hotel .icon{
+    @apply text-blue-500 text-xl
+}
+.hotel-data .information-hotel .description{
+    @apply mt-10
+}
+.hotel-data .information-hotel .description p{
+@apply text-ellipsis overflow-hidden max-w-full line-clamp-1 text-xl
+text-gray-600 font-[400]
+}
+.hotel-data .information-hotel .description span{
+    @apply text-[15px] text-blue-500 cursor-pointer border-b-1
+    border-blue-500
+}

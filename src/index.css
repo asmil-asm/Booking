@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* global */
+html{
+    @apply scroll-smooth
+}
+*{
+    @apply box-border m-0 p-0
+}
+ul{
+    @apply list-none
+}
+button{
+    @apply cursor-pointer
+}
+input[type="radio"]
+{ 
+    @apply cursor-pointer outline-none bg-blue-950
+}
+.cl-rootBox {
+  width: 100%!important;
+  display: flex;
+  justify-content: center;
+}
+
+.cl-card {
+  max-height: 90vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.cl-main input,
+.cl-main button {
+  height: auto !important;
+  box-sizing: border-box !important;
+}
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px; 
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[#f1f5f9] rounded-xl
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-blue-700 rounded-xl border-2 border-[#f1f5f9] transition-colors
+    
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-blue-700/80
+     
+ }

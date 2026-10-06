@@ -1,0 +1,46 @@
+@import "tailwindcss";
+ .image-home{
+    background-image: url('../../assets/Home/hero.png');
+    background-size: cover;
+    @apply relative w-full pt-4 pb-4
+}
+
+.image-home .shadow{
+    @apply absolute w-full top-0 left-0
+    bg-black/30 h-full
+
+}
+.hero-data{
+    @apply relative  
+}
+.image-home  .home-text {
+    @apply p-5 mt-[200px] mx-[50px]
+}
+ .image-home .home-text h2{
+    @apply font-bold text-4xl mb-3 text-white
+}
+.home .image-home  .home-text p{
+    @apply text-[20px] text-[#EEE]
+}
+.home .image-home .home-text button{
+   @apply  bg-blue-900 text-white
+    rounded-2xl p-2
+    cursor-pointer mt-9
+}
+
+
+
+
+
+/* Mobiles */
+.image-home  .home-text {
+    @apply max-sm:text-center
+}
+ .image-home .home-text h2{
+    @apply max-sm:text-xl
+}
+.image-home .home-text p{
+        @apply max-sm:text-[15px]
+
+}
+   

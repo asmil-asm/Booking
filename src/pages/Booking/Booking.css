@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+  .booking-page {
+    @apply w-full   text-slate-100 font-sans antialiased flex flex-col mt-[100px];
+
+   
+  }
+
+  .booking-main {
+    @apply flex-1   min-w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12;
+  }
+
+  .booking-form {
+    @apply grid grid-cols-1 lg:grid-cols-12 gap-8 items-start ;
+ 
+  }
+
+  .booking-left {
+    @apply lg:col-span-7 space-y-8;
+
+  }
+
+  .booking-card {
+    @apply bg-[#efefef] border border-blue-900/60 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-2xl space-y-6;
+ 
+  }
+
+  .booking-card-header {
+    @apply flex items-center space-x-3 border-b border-blue-900/60 pb-4;
+   
+  }
+
+  .booking-icon-box {
+    @apply w-9 h-9 rounded-xl  text-blue-400 flex items-center justify-center border border-blue-500/30;
+ 
+  }
+
+  .booking-label {
+    @apply block text-xs font-semibold text-blue-950 mb-2;
+ 
+  }
+
+  .booking-input {
+  @apply outline-none border border-gray-400 focus:border-blue-950
+         w-full mt-2 mb-4 p-2 rounded-xl bg-white text-blue-400;
+  }
+
+  .booking-input-icon {
+    @apply pl-10 text-blue-400;
+  }
+
+  .booking-icon-input {
+    @apply absolute left-3.5 top-3.5 text-blue-950;
+   
+  }
+
+  .booking-checkbox-row {
+    @apply flex items-center justify-between p-4 rounded-xl border transition-all cursor-pointer;
+   
+  }
+
+  .booking-checkbox-active {
+    @apply bg-blue-950
+  }
+
+  .booking-checkbox-inactive {
+    @apply bg-white 
+  }
+
+  .booking-payment-btn {
+    @apply p-3 rounded-xl text-blue-950 border border-blue-950 text-xs font-semibold cursor-pointer flex flex-col items-center gap-1.5;
+
+  }
+
+  .booking-payment-btn-active {
+    @apply bg-blue-950 text-white;
+  }
+
+  .booking-summary {
+    @apply bg-[#efefef] border border-blue-950 rounded-2xl p-6 backdrop-blur-md shadow-2xl sticky top-28 space-y-6;
+  
+  }
+
+  .booking-summary-title {
+    @apply text-lg font-bold text-white border-b border-blue-950 pb-3;
+    
+  }
+
+  .booking-summary-room {
+    @apply flex gap-4 items-center bg-white p-3 rounded-xl border border-blue-950;
+ 
+  }
+
+  .booking-summary-row {
+    @apply flex justify-between text-slate-700;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .booking-total-row {
+    @apply border-t border-blue-950 pt-4 flex justify-between items-center ;
+ 
+  }
+
+  .booking-submit-btn {
+    @apply w-full bg-blue-950 text-white font-bold p-4 rounded-xl border-none cursor-pointer flex justify-center items-center gap-2 text-base;
+
+  }
+
+  .booking-confirmation {
+    @apply max-w-4xl mx-auto py-8 bg-white border border-blue-950 rounded-3xl p-8 shadow-2xl text-center space-y-8;
+ 
+  }
+
+  .booking-confirmation-icon {
+    @apply w-20 h-20 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center mx-auto;
+  
+  }

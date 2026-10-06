@@ -1,0 +1,50 @@
+@import "tailwindcss";
+.about{
+    @apply mt-[150px] p-5 text-[#333] 
+}
+.about h1{
+    @apply text-center text-blue-950 text-3xl font-bold  max-lg:text-2xl
+}
+.about p{
+    @apply text-xl  mt-3 text-center max-lg:text-[18px]
+}
+.about .topic {
+    @apply flex justify-between items-center p-2 mt-[100px]  max-lg:flex-col gap-y-8
+}
+.about .topic img{
+    @apply w-[700px] h-[400px] rounded-xl
+}
+.about .topic .text{
+    @apply lg:ml-[100px]  max-lg:text-center p-2
+}
+.about .topic .text h2{
+    @apply font-bold lg:text-2xl text-blue-950 text-xl 
+}
+.about .topic .text p{
+    @apply text-[18px] mt-3
+}
+.about .topic .text ul {
+@apply list-disc mt-10 
+}
+.about .topic .text ul li{
+    @apply mt-2 max-lg:text-[18px]
+}
+.about .guests{
+@apply p-2 mt-[100px]
+}
+.about .guests h2{
+    @apply font-bold lg:text-2xl text-blue-950 text-center text-xl
+}
+.about .guests  .boxes{
+    @apply flex justify-between items-center gap-3 mt-5 max-lg:flex-col
+    
+}
+.about .guests  .boxes .box{
+    @apply   p-3 bg-[#EEEE] rounded-2xl
+}
+.about .guests  .boxes .box p{
+    @apply text-[18px]
+}
+.about .guests  .boxes .box h4{
+    @apply text-blue-950 mt-3 font-[700]
+}

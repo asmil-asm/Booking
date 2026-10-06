@@ -1,0 +1,38 @@
+@import "tailwindcss";
+/* full screen */
+.typeHotels{
+    @apply pt-[100px] text-center p-5 
+
+}
+.typeHotels h2{
+    @apply text-4xl text-blue-950 font-bold mb-7 
+}
+.typeHotels p{
+    @apply text-2xl text-[#333] font-[500]
+}
+.typeHotels .types{
+    
+@apply mt-[30px] p-5 gap-5 grid  min-xl:grid-cols-5
+grid-cols-2 max-sm:grid-cols-1
+}
+.typeHotels .types .card {
+    @apply w-[250px]  bg-white pb-5 p-1 rounded-2xl  m-auto shadow-xl
+    max-sm:w-[270px]
+    
+
+
+}
+.typeHotels .types .card img{
+    @apply w-full rounded-2xl m-auto 
+}
+.typeHotels .types .card .text{
+    @apply flex justify-between mt-3 items-center p-2
+}
+.typeHotels .types .card .text h3{
+    @apply text-[20px]
+}
+.typeHotels .types .card .text .icons{
+    @apply p-2 rounded-full border-1 border-blue-950 hover:bg-blue-950
+    text-4xl text-center font-bold hover:text-white cursor-pointer
+}
+/* Mobile */

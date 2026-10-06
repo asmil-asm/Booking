@@ -1,0 +1,21 @@
+@import "tailwindcss";
+.error{
+    @apply flex justify-center items-center m-auto h-screen
+}
+.content{
+    @apply py-8 px-4 mx-auto max-w-7xl lg:py-16 lg:px-6
+}
+.text{
+    @apply mx-auto max-w-screen-sm text-center text-blue-950
+}
+.text h1{
+    @apply mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl  
+}
+.text p{
+    @apply mb-4 text-[18px] tracking-tight font-bold text-blue-950 md:text-xl 
+}
+.text .btns{
+       padding: 5px 15px;
+    @apply  bg-blue-950 text-white text-[15px]
+    font-bold rounded-xl  hover:bg-blue-900
+}

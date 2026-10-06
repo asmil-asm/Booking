@@ -1,0 +1,1950 @@
+[
+  {
+    "id": 1,
+    "name": "Heeton Concept Hotel - Kensington",
+    "type": "Dhaka",
+    "image-type": "/assets/typeHotels/advance-thumb1.jpg",
+    "offer": 25,
+    "country": "United Kingdom",
+    "image-country": "/assets/countries/UnitedKingdom.jpg",
+    "location": "Hotel near Earls Court, London",
+    "image": "/assets/Hotels/hotel1.webp",
+    "aminities": [
+      { "name": "delicious breakfast", "icon": "PiCoffeeBold" },
+      { "name": "perfect location", "icon": "MdOutlineAddLocation" },
+      { "name": "Free luggage storage", "icon": "LiaLuggageCartSolid" },
+      { "name": "fitness room", "icon": "IoIosFitness" },
+      { "name": "outdoor swimming pool", "icon": "FaSwimmingPool" },
+      { "name": "Wifi", "icon": "CiCircleMore" }
+    ],
+    "facilities": [
+      { "name": "Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Car park", "icon": "FaParking" },
+      { "name": "Sauna", "icon": "LuHeater" },
+      { "name": "Indoor Swimming Pool", "icon": "FaSwimmingPool" },
+      { "name": "Fitness Room", "icon": "IoIosFitness" },
+      { "name": "Golf Course", "icon": "IoGolfOutline" },
+      { "name": "Cafe", "icon": "IoCafe" }
+    ],
+    "price": "$400",
+    "rate": 5,
+    "description": "Located in the heart of London, this luxury hotel offers free WiFi in all areas, comfortable modern-style rooms, and a health club on site.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel1/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel1/room1.webp",
+        "/assets/Hotels/Hotel1/room2.webp",
+        "/assets/Hotels/Hotel1/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel1/food1.webp",
+        "/assets/Hotels/Hotel1/food2.webp",
+        "/assets/Hotels/Hotel1/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel1/Aminities1.webp",
+        "/assets/Hotels/Hotel1/Aminities2.webp",
+        "/assets/Hotels/Hotel1/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel1/Public1.webp",
+        "/assets/Hotels/Hotel1/Puplic2.webp",
+        "/assets/Hotels/Hotel1/Public3.webp"
+      ]
+    },
+    "Year": 2018,
+    "phone": "+966-545050062",
+    "email": "Violethotel1@gmail.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Classic Single & Double - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel1/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel1/Rooms/room1_2.webp"
+        ],
+        "rating": 4,
+        "facilities": [
+          { "name": "Restaurant", "icon": "MdOutlineFoodBank" },
+          { "name": "Car park", "icon": "FaParking" }
+        ],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 Queen Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 380
+      },
+      {
+        "id": 2,
+        "title": "Deluxe Twin Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel1/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel1/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [
+          { "name": "Restaurant", "icon": "MdOutlineFoodBank" },
+          { "name": "Fitness Room", "icon": "IoIosFitness" }
+        ],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 540
+      },
+      {
+        "id": 3,
+        "title": "Grand Family Suite - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel1/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel1/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [
+          { "name": "Restaurant", "icon": "MdOutlineFoodBank" },
+          { "name": "Indoor Swimming Pool", "icon": "FaSwimmingPool" }
+        ],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed & 2 Double Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 720
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "The Ritz-Carlton - Marina Bay",
+    "type": "Coxsbazar",
+    "image-type": "/assets/typeHotels/advance-thumb2.jpg",
+    "offer": 30,
+    "country": "Singapore",
+    "image-country": "/assets/countries/Singapore.avif",
+    "location": "Downtown, Singapore",
+    "image": "/assets/Hotels/hotel2.webp",
+    "aminities": [
+      { "name": "gourmet breakfast", "icon": "PiCoffeeBold" },
+      { "name": "prime harbor location", "icon": "MdOutlineAddLocation" },
+      { "name": "valet parking", "icon": "FaParking" },
+      { "name": "luxury spa", "icon": "LuHeater" },
+      { "name": "infinity pool", "icon": "FaSwimmingPool" },
+      { "name": "high-speed Wifi", "icon": "CiCircleMore" }
+    ],
+    "facilities": [
+      { "name": "Fine Dining Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Underground Parking", "icon": "FaParking" },
+      { "name": "Wellness Center", "icon": "LuHeater" },
+      { "name": "Rooftop Pool", "icon": "FaSwimmingPool" },
+      { "name": "Gym & Crossfit", "icon": "IoIosFitness" }
+    ],
+    "price": "$850",
+    "rate": 5,
+    "description": "Featuring iconic architecture and Panoramic views of Marina Bay, this luxury property offers world-class service and Michelin-starred dining experiences.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel2/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel2/room1.webp",
+        "/assets/Hotels/Hotel2/room2.webp",
+        "/assets/Hotels/Hotel2/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel2/food1.webp",
+        "/assets/Hotels/Hotel2/food2.webp",
+        "/assets/Hotels/Hotel2/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel2/Aminities1.webp",
+        "/assets/Hotels/Hotel2/Aminities2.webp",
+        "/assets/Hotels/Hotel2/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel2/Public1.webp",
+        "/assets/Hotels/Hotel2/Puplic2.webp",
+        "/assets/Hotels/Hotel2/Public3.webp"
+      ]
+    },
+    "Year": 2021,
+    "phone": "+65-6434-5000",
+    "email": "res.singapore@ritzcarlton.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Marina Deluxe Room - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel2/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel2/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [
+          { "name": "Restaurant", "icon": "MdOutlineFoodBank" },
+          { "name": "Car park", "icon": "FaParking" }
+        ],
+        "aminities": [
+          { "name": "1 Master Bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "Super King Bed 1", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 820
+      },
+      {
+        "id": 2,
+        "title": "Bay View Double Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel2/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel2/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [
+          { "name": "Rooftop Pool", "icon": "FaSwimmingPool" },
+          { "name": "Wellness Center", "icon": "LuHeater" }
+        ],
+        "aminities": [
+          { "name": "2 Bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1100
+      },
+      {
+        "id": 3,
+        "title": "Ritz-Carlton Penthouse - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel2/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel2/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [
+          { "name": "Fine Dining Restaurant", "icon": "MdOutlineFoodBank" },
+          { "name": "Rooftop Pool", "icon": "FaSwimmingPool" }
+        ],
+        "aminities": [
+          { "name": "3 Master Bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "3 Super King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1600
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Grand Hyatt - Manhattan Center",
+    "type": "Sylhet",
+    "image-type": "/assets/typeHotels/advance-thumb3.jpg",
+    "offer": 20,
+    "country": "United States",
+    "image-country": "/assets/countries/UnitedStates.avif",
+    "location": "Midtown East, New York, USA",
+    "image": "/assets/Hotels/hotel3.webp",
+    "aminities": [
+      { "name": "express check-in", "icon": "LiaLuggageCartSolid" },
+      { "name": "central location", "icon": "MdOutlineAddLocation" },
+      { "name": "24/7 fitness center", "icon": "IoIosFitness" },
+      { "name": "artisan coffee bar", "icon": "IoCafe" }
+    ],
+    "facilities": [
+      { "name": "Bistro & Lounge", "icon": "MdOutlineFoodBank" },
+      { "name": "Valet Service", "icon": "FaParking" },
+      { "name": "Executive Gym", "icon": "IoIosFitness" },
+      { "name": "Espresso Bar", "icon": "IoCafe" }
+    ],
+    "price": "$620",
+    "rate": 4,
+    "description": "Steps away from Grand Central Terminal, offering modern urban retreat with sleek interior design and full business services.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel3/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel3/room1.webp",
+        "/assets/Hotels/Hotel3/room2.webp",
+        "/assets/Hotels/Hotel3/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel3/food1.webp",
+        "/assets/Hotels/Hotel3/food2.webp",
+        "/assets/Hotels/Hotel3/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel3/Aminities1.webp",
+        "/assets/Hotels/Hotel3/Aminities2.webp",
+        "/assets/Hotels/Hotel3/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel3/Public1.webp",
+        "/assets/Hotels/Hotel3/Puplic2.webp",
+        "/assets/Hotels/Hotel3/Public3.webp"
+      ]
+    },
+    "Year": 2019,
+    "phone": "+1-212-883-1234",
+    "email": "info.nygh@hyatt.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Skyline Executive King - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel3/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel3/Rooms/room1_2.webp"
+        ],
+        "rating": 4,
+        "facilities": [{ "name": "Cafe", "icon": "IoCafe" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 620
+      },
+      {
+        "id": 2,
+        "title": "Manhattan Double Double - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel3/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel3/Rooms/room2_2.webp"
+        ],
+        "rating": 4,
+        "facilities": [{ "name": "Executive Gym", "icon": "IoIosFitness" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Double Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 780
+      },
+      {
+        "id": 3,
+        "title": "Grand Premier Family Suite - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel3/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel3/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Bistro & Lounge", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds & 1 Sofa Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 950
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Al Maha Resort & Spa",
+    "type": "Bandarban",
+    "image-type": "/assets/typeHotels/advance-thumb4.jpg",
+    "offer": 15,
+    "country": "United Arab Emirates",
+    "image-country": "/assets/countries/Dubai.jfif",
+    "location": "Desert Conservation Reserve, Dubai",
+    "image": "/assets/Hotels/hotel4.webp",
+    "aminities": [
+      { "name": "private plunge pool", "icon": "FaSwimmingPool" },
+      { "name": "desert safari included", "icon": "MdOutlineAddLocation" },
+      { "name": "all-inclusive dining", "icon": "MdOutlineFoodBank" },
+      { "name": "spa & wellness", "icon": "LuHeater" }
+    ],
+    "facilities": [
+      { "name": "Al Diwaan Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Private Pool Villas", "icon": "FaSwimmingPool" },
+      { "name": "Timeless Spa", "icon": "LuHeater" }
+    ],
+    "price": "$1200",
+    "rate": 5,
+    "description": "An exclusive eco-luxury resort secluded within desert dunes. Experience Arabian heritage with private pools and desert activities.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel4/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel4/room1.webp",
+        "/assets/Hotels/Hotel4/room2.webp",
+        "/assets/Hotels/Hotel4/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel4/food1.webp",
+        "/assets/Hotels/Hotel4/food2.webp",
+        "/assets/Hotels/Hotel4/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel4/Aminities1.webp",
+        "/assets/Hotels/Hotel4/Aminities2.webp",
+        "/assets/Hotels/Hotel4/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel4/Public1.webp",
+        "/assets/Hotels/Hotel4/Puplic2.webp",
+        "/assets/Hotels/Hotel4/Public3.webp"
+      ]
+    },
+    "Year": 2020,
+    "phone": "+971-4-832-9900",
+    "email": "reservation.almaha@luxurycollection.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Bedouin Suite - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel4/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel4/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Sauna", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "1 Suite", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "Custom King Bed 1", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1200
+      },
+      {
+        "id": 2,
+        "title": "Royal Desert Villa - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel4/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel4/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Private Pool Villas", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "2 Suites", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1800
+      },
+      {
+        "id": 3,
+        "title": "Emirates Presidential Compound - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel4/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel4/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Timeless Spa", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 Suites", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "3 Custom King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2500
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Hotel Arts Barcelona",
+    "type": "Comilla",
+    "image-type": "/assets/typeHotels/advance-thumb5.jpg",
+    "offer": 35,
+    "country": "Spain",
+    "image-country": "/assets/countries/Spain.jpg",
+    "location": "Barceloneta Beach, Barcelona, Spain",
+    "image": "/assets/Hotels/hotel5.webp",
+    "aminities": [
+      { "name": "sea view balconies", "icon": "MdOutlineAddLocation" },
+      { "name": "2 outdoor pools", "icon": "FaSwimmingPool" },
+      { "name": "beachfront access", "icon": "FaSwimmingPool" },
+      { "name": "buffet breakfast", "icon": "PiCoffeeBold" }
+    ],
+    "facilities": [
+      { "name": "Enoteca Paco Pérez", "icon": "MdOutlineFoodBank" },
+      { "name": "43 The Spa", "icon": "LuHeater" },
+      { "name": "Coastal Pool", "icon": "FaSwimmingPool" }
+    ],
+    "price": "$510",
+    "rate": 4,
+    "description": "A striking 44-story tower overlooking the Mediterranean sea and city center, offering terraced gardens and luxury accommodations.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel5/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel5/room1.webp",
+        "/assets/Hotels/Hotel5/room2.webp",
+        "/assets/Hotels/Hotel5/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel5/food1.webp",
+        "/assets/Hotels/Hotel5/food2.webp",
+        "/assets/Hotels/Hotel5/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel5/Aminities1.webp",
+        "/assets/Hotels/Hotel5/Aminities2.webp",
+        "/assets/Hotels/Hotel5/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel5/Public1.webp",
+        "/assets/Hotels/Hotel5/Puplic2.webp",
+        "/assets/Hotels/Hotel5/Public3.webp"
+      ]
+    },
+    "Year": 2017,
+    "phone": "+34-9322-11000",
+    "email": "artsreservations@ritzcarlton.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Mediterranean Sea View - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel5/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel5/Rooms/room1_2.webp"
+        ],
+        "rating": 4,
+        "facilities": [{ "name": "Restaurant", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 510
+      },
+      {
+        "id": 2,
+        "title": "Coastal Twin Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel5/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel5/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Coastal Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 730
+      },
+      {
+        "id": 3,
+        "title": "Arts Duplex Penthouse - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel5/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel5/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "43 The Spa", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds & 2 Twin Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1100
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Kyoto Heritage Ryokan & Spa",
+    "type": "Dhaka",
+    "image-type": "/assets/typeHotels/advance-thumb1.jpg",
+    "offer": 10,
+    "country": "Japan",
+    "image-country": "/assets/countries/Japan.avif",
+    "location": "Gion District, Kyoto, Japan",
+    "image": "/assets/Hotels/hotel6.webp",
+    "aminities": [
+      { "name": "traditional Kaiseki dinner", "icon": "MdOutlineFoodBank" },
+      { "name": "hot spring Onsen", "icon": "LuHeater" },
+      { "name": "zen garden view", "icon": "MdOutlineAddLocation" },
+      { "name": "green tea station", "icon": "PiCoffeeBold" }
+    ],
+    "facilities": [
+      { "name": "Japanese Dining Hall", "icon": "MdOutlineFoodBank" },
+      { "name": "Thermal Onsen Baths", "icon": "LuHeater" },
+      { "name": "Tea Lounge", "icon": "IoCafe" }
+    ],
+    "price": "$720",
+    "rate": 5,
+    "description": "Authentic Japanese hospitality combined with modern luxury. Enjoy private indoor thermal baths and seasonal local dining.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel6/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel6/room1.webp",
+        "/assets/Hotels/Hotel6/room2.webp",
+        "/assets/Hotels/Hotel6/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel6/food1.webp",
+        "/assets/Hotels/Hotel6/food2.webp",
+        "/assets/Hotels/Hotel6/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel6/Aminities1.webp",
+        "/assets/Hotels/Hotel6/Aminities2.webp",
+        "/assets/Hotels/Hotel6/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel6/Public1.webp",
+        "/assets/Hotels/Hotel6/Puplic2.webp",
+        "/assets/Hotels/Hotel6/Public3.webp"
+      ]
+    },
+    "Year": 2022,
+    "phone": "+81-75-551-1111",
+    "email": "contact@kyotoheritageryokan.jp",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Tatami Garden Suite - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel6/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel6/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Sauna", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "1 Futon / King Bed", "icon": "MdOutlineKingBed" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" }
+        ],
+        "price": 720
+      },
+      {
+        "id": 2,
+        "title": "Zen Garden Double Room - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel6/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel6/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Thermal Onsen Baths", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "2 Futons / Beds", "icon": "MdOutlineKingBed" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" }
+        ],
+        "price": 940
+      },
+      {
+        "id": 3,
+        "title": "Heritage Imperial Suite - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel6/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel6/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Japanese Dining Hall", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "3 Tatami Rooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" }
+        ],
+        "price": 1250
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The Plaza Hotel",
+    "type": "Coxsbazar",
+    "image-type": "/assets/typeHotels/advance-thumb2.jpg",
+    "offer": 25,
+    "country": "United States",
+    "image-country": "/assets/countries/UnitedStates.avif",
+    "location": "Fifth Avenue at Central Park, New York, USA",
+    "image": "/assets/Hotels/hotel7.avif",
+    "aminities": [
+      { "name": "butler service", "icon": "LiaLuggageCartSolid" },
+      { "name": "central park view", "icon": "MdOutlineAddLocation" },
+      { "name": "champagne bar", "icon": "IoCafe" },
+      { "name": "luxury shopping access", "icon": "CiCircleMore" }
+    ],
+    "facilities": [
+      { "name": "The Palm Court", "icon": "MdOutlineFoodBank" },
+      { "name": "Guerlain Spa", "icon": "LuHeater" },
+      { "name": "Fitness Center", "icon": "IoIosFitness" }
+    ],
+    "price": "$1100",
+    "rate": 5,
+    "description": "An iconic landmark defining luxury for over a century. Located at the corner of Central Park, offering timeless elegance.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel7/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel7/room1.webp",
+        "/assets/Hotels/Hotel7/room2.webp",
+        "/assets/Hotels/Hotel7/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel7/food1.webp",
+        "/assets/Hotels/Hotel7/food2.webp",
+        "/assets/Hotels/Hotel7/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel7/Aminities1.webp",
+        "/assets/Hotels/Hotel7/Aminities2.webp",
+        "/assets/Hotels/Hotel7/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel7/Public1.webp",
+        "/assets/Hotels/Hotel7/Puplic2.webp",
+        "/assets/Hotels/Hotel7/Public3.webp"
+      ]
+    },
+    "Year": 2016,
+    "phone": "+1-212-759-3000",
+    "email": "plazareservations@fairmont.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Carnegie Central Park King - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel7/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel7/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "The Palm Court", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "1 Master Bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1100
+      },
+      {
+        "id": 2,
+        "title": "Fifth Avenue Double Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel7/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel7/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Guerlain Spa", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "2 Bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1450
+      },
+      {
+        "id": 3,
+        "title": "The Plaza Royal Family Suite - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel7/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel7/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Fitness Center", "icon": "IoIosFitness" }],
+        "aminities": [
+          { "name": "3 Bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds & 1 Queen Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2100
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Atlantis The Royal",
+    "type": "Sylhet",
+    "image-type": "/assets/typeHotels/advance-thumb3.jpg",
+    "offer": 40,
+    "country": "United Arab Emirates",
+    "image-country": "/assets/countries/Dubai.jfif",
+    "location": "Palm Jumeirah, Dubai, UAE",
+    "image": "/assets/Hotels/hotel8.avif",
+    "aminities": [
+      { "name": "sky pool & lounge", "icon": "FaSwimmingPool" },
+      { "name": "celebrity chef restaurants", "icon": "MdOutlineFoodBank" },
+      { "name": "aquarium access", "icon": "CiCircleMore" },
+      { "name": "private beach access", "icon": "MdOutlineAddLocation" }
+    ],
+    "facilities": [
+      { "name": "Nobu by the Beach", "icon": "MdOutlineFoodBank" },
+      { "name": "Cloud 22 Infinity Pool", "icon": "FaSwimmingPool" },
+      { "name": "Awaken Wellness Spa", "icon": "LuHeater" },
+      { "name": "Tennis & Golf Courts", "icon": "IoGolfOutline" }
+    ],
+    "price": "$1450",
+    "rate": 5,
+    "description": "A modern architectural masterpiece on Palm Jumeirah with bespoke suites, infinity pools, and world-renowned dining.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel8/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel8/room1.webp",
+        "/assets/Hotels/Hotel8/room2.webp",
+        "/assets/Hotels/Hotel8/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel8/food1.webp",
+        "/assets/Hotels/Hotel8/food2.webp",
+        "/assets/Hotels/Hotel8/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel8/Aminities1.webp",
+        "/assets/Hotels/Hotel8/Aminities2.webp",
+        "/assets/Hotels/Hotel8/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel8/Public1.webp",
+        "/assets/Hotels/Hotel8/Puplic2.webp",
+        "/assets/Hotels/Hotel8/Public3.webp"
+      ]
+    },
+    "Year": 2023,
+    "phone": "+971-4-426-3000",
+    "email": "info@atlantistheroyal.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Ocean View Sky Room - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel8/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel8/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Cloud 22 Infinity Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1450
+      },
+      {
+        "id": 2,
+        "title": "Palm View Twin Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel8/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel8/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Nobu by the Beach", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1850
+      },
+      {
+        "id": 3,
+        "title": "Royal Sky Terrace Penthouse - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel8/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel8/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Awaken Wellness Spa", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "3 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2700
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Four Seasons Hotel George V",
+    "type": "Bandarban",
+    "image-type": "/assets/typeHotels/advance-thumb4.jpg",
+    "offer": 20,
+    "country": "France",
+    "image-country": "/assets/countries/Paris.jfif",
+    "location": "Champs-Élysées, Paris, France",
+    "image": "/assets/Hotels/hotel9.avif",
+    "aminities": [
+      { "name": "3-Michelin-star dining", "icon": "MdOutlineFoodBank" },
+      { "name": "marble swimming pool", "icon": "FaSwimmingPool" },
+      { "name": "courtyard floral displays", "icon": "MdOutlineAddLocation" },
+      { "name": "french bakery breakfast", "icon": "PiCoffeeBold" }
+    ],
+    "facilities": [
+      { "name": "Le Cinq Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Spa & Sauna Suite", "icon": "LuHeater" },
+      { "name": "Heated Indoor Pool", "icon": "FaSwimmingPool" }
+    ],
+    "price": "$1650",
+    "rate": 5,
+    "description": "An art-deco landmark built in 1928, nested near Champs-Élysées. Known for floral installations and lavish rooms.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel9/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel9/room1.webp",
+        "/assets/Hotels/Hotel9/room2.webp",
+        "/assets/Hotels/Hotel9/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel9/food1.webp",
+        "/assets/Hotels/Hotel9/food2.webp",
+        "/assets/Hotels/Hotel9/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel9/Aminities1.webp",
+        "/assets/Hotels/Hotel9/Aminities2.webp",
+        "/assets/Hotels/Hotel9/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel9/Public1.webp",
+        "/assets/Hotels/Hotel9/Puplic2.webp",
+        "/assets/Hotels/Hotel9/Public3.webp"
+      ]
+    },
+    "Year": 2019,
+    "phone": "+33-1-4952-7000",
+    "email": "booking.par@fourseasons.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Parisian Superior King - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel9/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel9/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Le Cinq Restaurant", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1650
+      },
+      {
+        "id": 2,
+        "title": "Deluxe Balcony Twin Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel9/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel9/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Heated Indoor Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2100
+      },
+      {
+        "id": 3,
+        "title": "Presidential Eiffel Suite - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel9/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel9/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Spa & Sauna Suite", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "3 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 3100
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Amangiri Canyon Resort",
+    "type": "Comilla",
+    "image-type": "/assets/typeHotels/advance-thumb5.jpg",
+    "offer": 15,
+    "country": "United States",
+    "image-country": "/assets/countries/UnitedStates.avif",
+    "location": "Canyon Point, Utah, USA",
+    "image": "/assets/Hotels/hotel10.avif",
+    "aminities": [
+      { "name": "canyon views", "icon": "MdOutlineAddLocation" },
+      { "name": "private pavilion pool", "icon": "FaSwimmingPool" },
+      { "name": "desert hiking trails", "icon": "IoIosFitness" },
+      { "name": "holistic spa treatment", "icon": "LuHeater" }
+    ],
+    "facilities": [
+      { "name": "Open Kitchen Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Aman Spa", "icon": "LuHeater" },
+      { "name": "Outdoor Heated Pool", "icon": "FaSwimmingPool" }
+    ],
+    "price": "$2100",
+    "rate": 5,
+    "description": "Blended seamlessly into 600 acres of Utah's red-rock country, offering extreme privacy and dramatic canyon views.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel10/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel10/room1.webp",
+        "/assets/Hotels/Hotel10/room2.webp",
+        "/assets/Hotels/Hotel10/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel10/food1.webp",
+        "/assets/Hotels/Hotel10/food2.webp",
+        "/assets/Hotels/Hotel10/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel10/Aminities1.webp",
+        "/assets/Hotels/Hotel10/Aminities2.webp",
+        "/assets/Hotels/Hotel10/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel10/Public1.webp",
+        "/assets/Hotels/Hotel10/Puplic2.webp",
+        "/assets/Hotels/Hotel10/Public3.webp"
+      ]
+    },
+    "Year": 2021,
+    "phone": "+1-435-675-3999",
+    "email": "amangiri@aman.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Mesa View Suite - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel10/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel10/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Aman Spa", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "1 Suite", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2100
+      },
+      {
+        "id": 2,
+        "title": "Desert Pavilion Double - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel10/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel10/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Outdoor Heated Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "2 Suites", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2800
+      },
+      {
+        "id": 3,
+        "title": "Girijaala Family Home - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel10/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel10/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Open Kitchen Restaurant", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "4 Suites", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 8", "icon": "IoPeopleSharp" },
+          { "name": "4 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 3900
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Soneva Fushi Island Resort",
+    "type": "Coxsbazar",
+    "image-type": "/assets/typeHotels/advance-thumb2.jpg",
+    "offer": 30,
+    "country": "Maldives",
+    "image-country": "/assets/countries/Maldives.avif",
+    "location": "Baa Atoll, Maldives",
+    "image": "/assets/Hotels/hotel11.avif",
+    "aminities": [
+      { "name": "overwater villa", "icon": "MdOutlineAddLocation" },
+      { "name": "private water slide", "icon": "FaSwimmingPool" },
+      { "name": "barefoot luxury concept", "icon": "CiCircleMore" },
+      { "name": "organic seafood buffet", "icon": "MdOutlineFoodBank" }
+    ],
+    "facilities": [
+      { "name": "Out of the Blue Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Six Senses Spa", "icon": "LuHeater" },
+      { "name": "Observatory & Cinema", "icon": "CiCircleMore" }
+    ],
+    "price": "$1800",
+    "rate": 5,
+    "description": "An eco-friendly paradise in a UNESCO Biosphere Reserve. Features villa homes with ocean waterslides and private beaches.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel11/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel11/room1.webp",
+        "/assets/Hotels/Hotel11/room2.webp",
+        "/assets/Hotels/Hotel11/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel11/food1.webp",
+        "/assets/Hotels/Hotel11/food2.webp",
+        "/assets/Hotels/Hotel11/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel11/Aminities1.webp",
+        "/assets/Hotels/Hotel11/Aminities2.webp",
+        "/assets/Hotels/Hotel11/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel11/Public1.webp",
+        "/assets/Hotels/Hotel11/Puplic2.webp",
+        "/assets/Hotels/Hotel11/Public3.webp"
+      ]
+    },
+    "Year": 2020,
+    "phone": "+960-660-0304",
+    "email": "reservations@soneva.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Water Reserve with Slide - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel11/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel11/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Out of the Blue Restaurant", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1800
+      },
+      {
+        "id": 2,
+        "title": "2-Bedroom Island Villa - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel11/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel11/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Six Senses Spa", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2400
+      },
+      {
+        "id": 3,
+        "title": "4-Bedroom Crusoe Reserve - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel11/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel11/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Observatory & Cinema", "icon": "CiCircleMore" }],
+        "aminities": [
+          { "name": "4 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 8", "icon": "IoPeopleSharp" },
+          { "name": "3 King Beds & 2 Single Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 3600
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Claridge's Hotel",
+    "type": "Dhaka",
+    "image-type": "/assets/typeHotels/advance-thumb1.jpg",
+    "offer": 25,
+    "country": "United Kingdom",
+    "image-country": "/assets/countries/UnitedKingdom.jpg",
+    "location": "Mayfair, London, UK",
+    "image": "/assets/Hotels/hotel12.avif",
+    "aminities": [
+      { "name": "traditional afternoon tea", "icon": "IoCafe" },
+      { "name": "personal shopping butler", "icon": "LiaLuggageCartSolid" },
+      { "name": "art deco design", "icon": "MdOutlineAddLocation" },
+      { "name": "complimentary wifi", "icon": "CiCircleMore" }
+    ],
+    "facilities": [
+      { "name": "Claridge's Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "The Foyer & Reading Room", "icon": "IoCafe" },
+      { "name": "Health Club & Spa", "icon": "IoIosFitness" }
+    ],
+    "price": "$980",
+    "rate": 5,
+    "description": "Set in prestigious Mayfair, Claridge's embodies grand English heritage. Renowned for elegant decor and famous afternoon teas.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel12/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel12/room1.webp",
+        "/assets/Hotels/Hotel12/room2.webp",
+        "/assets/Hotels/Hotel12/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel12/food1.webp",
+        "/assets/Hotels/Hotel12/food2.webp",
+        "/assets/Hotels/Hotel12/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel12/Aminities1.webp",
+        "/assets/Hotels/Hotel12/Aminities2.webp",
+        "/assets/Hotels/Hotel12/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel12/Public1.webp",
+        "/assets/Hotels/Hotel12/Puplic2.webp",
+        "/assets/Hotels/Hotel12/Public3.webp"
+      ]
+    },
+    "Year": 2018,
+    "phone": "+44-20-7629-8860",
+    "email": "reservations@claridges.co.uk",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Mayfair Deluxe Queen - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel12/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel12/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Cafe", "icon": "IoCafe" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 Queen Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 980
+      },
+      {
+        "id": 2,
+        "title": "Art Deco Twin Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel12/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel12/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "The Foyer & Reading Room", "icon": "IoCafe" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Double Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1300
+      },
+      {
+        "id": 3,
+        "title": "Claridge's Royal Penthouse - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel12/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel12/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Health Club & Spa", "icon": "IoIosFitness" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds & 1 Twin Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1950
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Badrutt's Palace Hotel",
+    "type": "Sylhet",
+    "image-type": "/assets/typeHotels/advance-thumb3.jpg",
+    "offer": 20,
+    "country": "Switzerland",
+    "image-country": "/assets/countries/Switzerland.avif",
+    "location": "St. Moritz, Switzerland",
+    "image": "/assets/Hotels/hotel13.avif",
+    "aminities": [
+      { "name": "ski-in ski-out access", "icon": "MdOutlineAddLocation" },
+      { "name": "alpine mountain view", "icon": "MdOutlineAddLocation" },
+      { "name": "heated indoor pool", "icon": "FaSwimmingPool" },
+      { "name": "sauna & steam room", "icon": "LuHeater" }
+    ],
+    "facilities": [
+      { "name": "Le Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Palace Wellness Center", "icon": "LuHeater" },
+      { "name": "Indoor & Outdoor Pools", "icon": "FaSwimmingPool" }
+    ],
+    "price": "$1300",
+    "rate": 5,
+    "description": "A legendary luxury ski resort in the Swiss Alps. Offers panoramic lake views, gourmet dining, and winter sports activities.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel13/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel13/room1.webp",
+        "/assets/Hotels/Hotel13/room2.webp",
+        "/assets/Hotels/Hotel13/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel13/food1.webp",
+        "/assets/Hotels/Hotel13/food2.webp",
+        "/assets/Hotels/Hotel13/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel13/Aminities1.webp",
+        "/assets/Hotels/Hotel13/Aminities2.webp",
+        "/assets/Hotels/Hotel13/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel13/Public1.webp",
+        "/assets/Hotels/Hotel13/Puplic2.webp",
+        "/assets/Hotels/Hotel13/Public3.webp"
+      ]
+    },
+    "Year": 2017,
+    "phone": "+41-81-837-1000",
+    "email": "reservations@badruttspalace.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Deluxe Lake View King - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel13/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel13/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Sauna", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1300
+      },
+      {
+        "id": 2,
+        "title": "Alpine Double Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel13/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel13/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Indoor & Outdoor Pools", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1750
+      },
+      {
+        "id": 3,
+        "title": "Palace Presidential Chalet - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel13/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel13/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Palace Wellness Center", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds & 2 Twin Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2600
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Marina Bay Sands",
+    "type": "Bandarban",
+    "image-type": "/assets/typeHotels/advance-thumb4.jpg",
+    "offer": 15,
+    "country": "Singapore",
+    "image-country": "/assets/countries/Singapore.avif",
+    "location": "Bayfront, Singapore",
+    "image": "/assets/Hotels/hotel14.avif",
+    "aminities": [
+      { "name": "world's largest rooftop pool", "icon": "FaSwimmingPool" },
+      { "name": "sky park observation deck", "icon": "MdOutlineAddLocation" },
+      { "name": "integrated casino & mall", "icon": "CiCircleMore" },
+      { "name": "international buffet", "icon": "MdOutlineFoodBank" }
+    ],
+    "facilities": [
+      { "name": "Spago by Wolfgang Puck", "icon": "MdOutlineFoodBank" },
+      { "name": "Infinity Rooftop Pool", "icon": "FaSwimmingPool" },
+      { "name": "Banyan Tree Spa", "icon": "LuHeater" }
+    ],
+    "price": "$750",
+    "rate": 5,
+    "description": "Singapore's most iconic skyline hotel. Features the SkyPark infinity pool, luxury shopping mall, and over 40 restaurants.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel14/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel14/room1.webp",
+        "/assets/Hotels/Hotel14/room2.webp",
+        "/assets/Hotels/Hotel14/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel14/food1.webp",
+        "/assets/Hotels/Hotel14/food2.webp",
+        "/assets/Hotels/Hotel14/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel14/Aminities1.webp",
+        "/assets/Hotels/Hotel14/Aminities2.webp",
+        "/assets/Hotels/Hotel14/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel14/Public1.webp",
+        "/assets/Hotels/Hotel14/Puplic2.webp",
+        "/assets/Hotels/Hotel14/Public3.webp"
+      ]
+    },
+    "Year": 2022,
+    "phone": "+65-6688-8868",
+    "email": "room.reservations@marinabaysands.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Sands Premier Harbor View - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel14/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel14/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Infinity Rooftop Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 750
+      },
+      {
+        "id": 2,
+        "title": "Sands Family Twin Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel14/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel14/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Spago by Wolfgang Puck", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1050
+      },
+      {
+        "id": 3,
+        "title": "Chairman Sky Penthouse - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel14/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel14/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Banyan Tree Spa", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "3 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1800
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Belmond Hotel Caruso",
+    "type": "Comilla",
+    "image-type": "/assets/typeHotels/advance-thumb5.jpg",
+    "offer": 25,
+    "country": "Italy",
+    "image-country": "/assets/countries/Italy.avif",
+    "location": "Ravello, Amalfi Coast, Italy",
+    "image": "/assets/Hotels/hotel15.avif",
+    "aminities": [
+      { "name": "cliffside infinity pool", "icon": "FaSwimmingPool" },
+      { "name": "panoramic ocean views", "icon": "MdOutlineAddLocation" },
+      { "name": "mediterranean gardens", "icon": "CiCircleMore" },
+      { "name": "italian gourmet breakfast", "icon": "PiCoffeeBold" }
+    ],
+    "facilities": [
+      { "name": "Belvedere Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Cliffside Heated Pool", "icon": "FaSwimmingPool" },
+      { "name": "Wellness Center", "icon": "LuHeater" }
+    ],
+    "price": "$1250",
+    "rate": 5,
+    "description": "Perched on a cliff 1,000 feet above the Amalfi Coast in a restored 11th-century palace. Offers dramatic ocean vistas.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel15/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel15/room1.webp",
+        "/assets/Hotels/Hotel15/room2.webp",
+        "/assets/Hotels/Hotel15/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel15/food1.webp",
+        "/assets/Hotels/Hotel15/food2.webp",
+        "/assets/Hotels/Hotel15/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel15/Aminities1.webp",
+        "/assets/Hotels/Hotel15/Aminities2.webp",
+        "/assets/Hotels/Hotel15/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel15/Public1.webp",
+        "/assets/Hotels/Hotel15/Puplic2.webp",
+        "/assets/Hotels/Hotel15/Public3.webp"
+      ]
+    },
+    "Year": 2019,
+    "phone": "+39-089-858801",
+    "email": "reservations.car@belmond.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Sea View King Balcony - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel15/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel15/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Belvedere Restaurant", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1250
+      },
+      {
+        "id": 2,
+        "title": "Amalfi Double Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel15/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel15/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Cliffside Heated Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1680
+      },
+      {
+        "id": 3,
+        "title": "Caruso Royal Palace Suite - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel15/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel15/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Wellness Center", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "3 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2400
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Mandarin Oriental",
+    "type": "Dhaka",
+    "image-type": "/assets/typeHotels/advance-thumb1.jpg",
+    "offer": 20,
+    "country": "Japan",
+    "image-country": "/assets/countries/Japan.avif",
+    "location": "Chuo City, Tokyo, Japan",
+    "image": "/assets/Hotels/hotel16.avif",
+    "aminities": [
+      { "name": "tokyo skytree views", "icon": "MdOutlineAddLocation" },
+      { "name": "tapas & sushi bar", "icon": "MdOutlineFoodBank" },
+      { "name": "high-tech room controls", "icon": "CiCircleMore" },
+      { "name": "hydrotherapy spa", "icon": "LuHeater" }
+    ],
+    "facilities": [
+      { "name": "Sense Tea Corner & Bar", "icon": "IoCafe" },
+      { "name": "Sky Spa & Fitness", "icon": "IoIosFitness" },
+      { "name": "French Fine Dining", "icon": "MdOutlineFoodBank" }
+    ],
+    "price": "$890",
+    "rate": 5,
+    "description": "Occupying top floors of Nihonbashi Mitsui Tower, combining sleek modern luxury with traditional Japanese aesthetics.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel16/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel16/room1.webp",
+        "/assets/Hotels/Hotel16/room2.webp",
+        "/assets/Hotels/Hotel16/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel16/food1.webp",
+        "/assets/Hotels/Hotel16/food2.webp",
+        "/assets/Hotels/Hotel16/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel16/Aminities1.webp",
+        "/assets/Hotels/Hotel16/Aminities2.webp",
+        "/assets/Hotels/Hotel16/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel16/Public1.webp",
+        "/assets/Hotels/Hotel16/Puplic2.webp",
+        "/assets/Hotels/Hotel16/Public3.webp"
+      ]
+    },
+    "Year": 2021,
+    "phone": "+81-3-3270-8800",
+    "email": "motyo-reservations@mohg.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Grand Deluxe Skytree King - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel16/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel16/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Sense Tea Corner & Bar", "icon": "IoCafe" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 890
+      },
+      {
+        "id": 2,
+        "title": "Tokyo Bay Twin Corner Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel16/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel16/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Sky Spa & Fitness", "icon": "IoIosFitness" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1220
+      },
+      {
+        "id": 3,
+        "title": "Mandarin Executive Presidential Suite - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel16/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel16/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "French Fine Dining", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "3 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1850
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Capella Ubud",
+    "type": "Coxsbazar",
+    "image-type": "/assets/typeHotels/advance-thumb2.jpg",
+    "offer": 30,
+    "country": "Indonesia",
+    "image-country": "/assets/countries/Indonesia.avif",
+    "location": "Ubud, Bali, Indonesia",
+    "image": "/assets/Hotels/hotel17.avif",
+    "aminities": [
+      { "name": "rainforest tented camp", "icon": "MdOutlineAddLocation" },
+      { "name": "saltwater pool", "icon": "FaSwimmingPool" },
+      { "name": "jungle trekking", "icon": "IoIosFitness" },
+      { "name": "balinese wellness rituals", "icon": "LuHeater" }
+    ],
+    "facilities": [
+      { "name": "Mads Lange Restaurant", "icon": "MdOutlineFoodBank" },
+      { "name": "Auriga Wellness Spa", "icon": "LuHeater" },
+      { "name": "Outdoor Camp Pool", "icon": "FaSwimmingPool" }
+    ],
+    "price": "$950",
+    "rate": 5,
+    "description": "Nestled among Ubud’s lush rainforests. Luxury tented retreats featuring private saltwater plunge pools.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel17/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel17/room1.webp",
+        "/assets/Hotels/Hotel17/room2.webp",
+        "/assets/Hotels/Hotel17/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel17/food1.webp",
+        "/assets/Hotels/Hotel17/food2.webp",
+        "/assets/Hotels/Hotel17/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel17/Aminities1.webp",
+        "/assets/Hotels/Hotel17/Aminities2.webp",
+        "/assets/Hotels/Hotel17/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel17/Public1.webp",
+        "/assets/Hotels/Hotel17/Puplic2.webp",
+        "/assets/Hotels/Hotel17/Public3.webp"
+      ]
+    },
+    "Year": 2020,
+    "phone": "+62-361-2091999",
+    "email": "info.ubud@capellahotels.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Terrace Tent Plunge Pool - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel17/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel17/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Outdoor Camp Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 950
+      },
+      {
+        "id": 2,
+        "title": "Rainforest Double Tent - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel17/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel17/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Auriga Wellness Spa", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Double Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1300
+      },
+      {
+        "id": 3,
+        "title": "The Lodge 2-Bedroom Family Camp - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel17/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel17/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Mads Lange Restaurant", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds & 1 Bunk Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1900
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Burj Al Arab Jumeirah",
+    "type": "Sylhet",
+    "image-type": "/assets/typeHotels/advance-thumb3.jpg",
+    "offer": 25,
+    "country": "United Arab Emirates",
+    "image-country": "/assets/countries/Dubai.jfif",
+    "location": "Jumeirah Beach, Dubai, UAE",
+    "image": "/assets/Hotels/hotel18.avif",
+    "aminities": [
+      { "name": "duplex suite layout", "icon": "MdOutlineBedroomParent" },
+      { "name": "private butler 24/7", "icon": "LiaLuggageCartSolid" },
+      { "name": "helipad & rolls royce transfer", "icon": "FaParking" },
+      { "name": "talise spa on 18th floor", "icon": "LuHeater" }
+    ],
+    "facilities": [
+      { "name": "Al Mahara Underwater Dining", "icon": "MdOutlineFoodBank" },
+      { "name": "The Terrace Infinity Pool", "icon": "FaSwimmingPool" },
+      { "name": "Talise Spa Suite", "icon": "LuHeater" },
+      { "name": "Fitness Club", "icon": "IoIosFitness" }
+    ],
+    "price": "$1900",
+    "rate": 5,
+    "description": "The world-famous sail-shaped hotel offering unprecedented luxury, ultra-private duplex suites, and personal butler service.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel18/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel18/room1.webp",
+        "/assets/Hotels/Hotel18/room2.webp",
+        "/assets/Hotels/Hotel18/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel18/food1.webp",
+        "/assets/Hotels/Hotel18/food2.webp",
+        "/assets/Hotels/Hotel18/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel18/Aminities1.webp",
+        "/assets/Hotels/Hotel18/Aminities2.webp",
+        "/assets/Hotels/Hotel18/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel18/Public1.webp",
+        "/assets/Hotels/Hotel18/Puplic2.webp",
+        "/assets/Hotels/Hotel18/Public3.webp"
+      ]
+    },
+    "Year": 2021,
+    "phone": "+971-4-301-7777",
+    "email": "baareservations@jumeirah.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Deluxe One-Bedroom Duplex - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel18/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel18/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Al Mahara Underwater Dining", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "1 Master Bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 Super King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1900
+      },
+      {
+        "id": 2,
+        "title": "Sky Two-Bedroom Duplex Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel18/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel18/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "The Terrace Infinity Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "2 Master Bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2800
+      },
+      {
+        "id": 3,
+        "title": "Royal Suite Penthouse - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel18/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel18/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Talise Spa Suite", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 Master Bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "3 Super King Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 4200
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Grand Hotel Tremezzo",
+    "type": "Bandarban",
+    "image-type": "/assets/typeHotels/advance-thumb4.jpg",
+    "offer": 15,
+    "country": "Italy",
+    "image-country": "/assets/countries/Italy.avif",
+    "location": "Lake Como, Italy",
+    "image": "/assets/Hotels/hotel19.avif",
+    "aminities": [
+      { "name": "floating lake pool", "icon": "FaSwimmingPool" },
+      { "name": "private park & beach", "icon": "MdOutlineAddLocation" },
+      { "name": "gourmet dining terrace", "icon": "MdOutlineFoodBank" },
+      { "name": "panoramic mountain views", "icon": "MdOutlineAddLocation" }
+    ],
+    "facilities": [
+      { "name": "La Terrazza Gualtiero Marchesi", "icon": "MdOutlineFoodBank" },
+      { "name": "T Spa Lake Como", "icon": "LuHeater" },
+      { "name": "Floating Pool", "icon": "FaSwimmingPool" }
+    ],
+    "price": "$1150",
+    "rate": 5,
+    "description": "An iconic Art Nouveau masterpiece positioned on the shores of Lake Como, offering breathtaking views of Bellagio and the Grigne mountains.",
+    "Hotel_images": {
+      "outImage": ["/assets/Hotels/Hotel19/hotel-out.webp"],
+      "roomImage": [
+        "/assets/Hotels/Hotel19/room1.webp",
+        "/assets/Hotels/Hotel19/room2.webp",
+        "/assets/Hotels/Hotel19/room3.webp"
+      ],
+      "foodImage": [
+        "/assets/Hotels/Hotel19/food1.webp",
+        "/assets/Hotels/Hotel19/food2.webp",
+        "/assets/Hotels/Hotel19/food3.webp"
+      ],
+      "animatiesImage": [
+        "/assets/Hotels/Hotel19/Aminities1.webp",
+        "/assets/Hotels/Hotel19/Aminities2.webp",
+        "/assets/Hotels/Hotel19/Aminities3.webp"
+      ],
+      "publicImage": [
+        "/assets/Hotels/Hotel19/Public1.webp",
+        "/assets/Hotels/Hotel19/Puplic2.webp",
+        "/assets/Hotels/Hotel19/Public3.webp"
+      ]
+    },
+    "Year": 2018,
+    "phone": "+39-0344-42491",
+    "email": "info@grandhoteltremezzo.com",
+    "rooms": [
+      {
+        "id": 1,
+        "title": "Prestige Lake View King - Bed 1",
+        "images": [
+          "/assets/Hotels/Hotel19/Rooms/room1_1.webp",
+          "/assets/Hotels/Hotel19/Rooms/room1_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "La Terrazza Gualtiero Marchesi", "icon": "MdOutlineFoodBank" }],
+        "aminities": [
+          { "name": "1 bedroom", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 2", "icon": "IoPeopleSharp" },
+          { "name": "1 King Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1150
+      },
+      {
+        "id": 2,
+        "title": "Park Double Suite - Bed 2",
+        "images": [
+          "/assets/Hotels/Hotel19/Rooms/room2_1.webp",
+          "/assets/Hotels/Hotel19/Rooms/room2_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "Floating Pool", "icon": "FaSwimmingPool" }],
+        "aminities": [
+          { "name": "2 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 4", "icon": "IoPeopleSharp" },
+          { "name": "2 Queen Beds", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 1500
+      },
+      {
+        "id": 3,
+        "title": "Rooftop Penthouse Suite - Bed 3+",
+        "images": [
+          "/assets/Hotels/Hotel19/Rooms/room3_1.webp",
+          "/assets/Hotels/Hotel19/Rooms/room3_2.webp"
+        ],
+        "rating": 5,
+        "facilities": [{ "name": "T Spa Lake Como", "icon": "LuHeater" }],
+        "aminities": [
+          { "name": "3 bedrooms", "icon": "MdOutlineBedroomParent" },
+          { "name": "Sleeps 6", "icon": "IoPeopleSharp" },
+          { "name": "2 King Beds & 1 Double Bed", "icon": "MdOutlineKingBed" }
+        ],
+        "price": 2200
+      }
+    ]
+  }
+ 
+]

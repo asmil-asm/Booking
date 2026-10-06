@@ -1,0 +1,42 @@
+@import "tailwindcss";
+.testimonailes
+{
+    @apply mt-[100px] p-5;
+}
+.testimonailes h2{
+        @apply text-4xl text-blue-950 font-bold mb-7  text-center
+
+}
+.testimonailes p{
+        @apply text-2xl text-[#333] font-[500] text-center
+
+}
+.testimonailes .tests{
+    @apply grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6 mt-[100px]
+}
+.testimonailes .tests .info{
+    @apply bg-white rounded-xl p-3 shadow-2xl
+}
+.testimonailes .tests .info .personal{
+    @apply flex items-center  justify-between
+}
+.info .personal img{
+
+    @apply w-20 h-20 rounded-[50%] object-cover mt-3;
+    
+}
+.info .personal .text{
+    @apply text-center
+}
+.info .personal h3{
+    @apply text-2xl text-blue-950;
+}
+.info .personal span{
+    @apply text-gray-500 text-xs
+}
+.info .stars{
+    @apply flex gap-1 text-amber-500 mt-5
+}
+.info p{
+    @apply text-xl text-gray-700 mt-5;
+}
