@@ -1,24 +1,20 @@
-import axios from "axios";
+// src/services/HandleAPI.ts
 import { useQuery } from "@tanstack/react-query";
+import hotelsData from "../data/hotels.json";
 
 export const handleFetchHotels = async () => {
-  try {
-    const response = await axios.get('/api/hotels');
-    return response.data;
-  } catch (error) {
-    console.error('Error fetching hotels:', error);
-    throw error; 
-  }
+  await new Promise((res) => setTimeout(res, 300));
+  return hotelsData;
 };
 
 export const useHotelsQuery = () => {
   return useQuery({
-    queryKey: ['hotels'],
+    queryKey: ["hotels"],
     queryFn: handleFetchHotels,
-    staleTime:1000*60*10,
-    gcTime:1000*60*30,
-    refetchOnWindowFocus:false,
-    refetchOnMount:false,
-    retry:1
+    staleTime: 1000 * 60 * 10,
+    gcTime: 1000 * 60 * 30,
+    refetchOnWindowFocus: false,
+    refetchOnMount: false,
+    retry: 1,
   });
 };

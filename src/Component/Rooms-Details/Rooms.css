@@ -38,33 +38,7 @@
     @apply mt-3 text-blue-950 font-bold cursor-pointer flex
     items-center gap-x-1
 }
-.rooms .rooms-details .room .policy{
-    @apply mt-3 pt-2 border-t-1 border-blue-950
-}
-.rooms .rooms-details .room .policy .title{
-    @apply flex items-center justify-between
-}
-.rooms .rooms-details .room .policy .title h4{
-@apply text-blue-950 font-[500]
-}
-.rooms .rooms-details .room .policy .title span{
-    @apply text-gray-600 text-[14px]
-}
-.rooms .rooms-details .room .policy .cncellation{
-    @apply mt-2  flex items-center gap-x-2  text-[15px] text-[#333]
-}
-.rooms .rooms-details .room .extras{
-    @apply mt-3 pt-2 border-t-1 border-blue-950
-}
-.rooms .rooms-details .room .extras h4{
-    @apply text-blue-950 font-[500]
-}
-.rooms .rooms-details .room .extras .info{
-    @apply mt-2  flex items-center gap-x-2  text-[15px] text-[#333]
-}
-.rooms .rooms-details .room .extras .info label{
-    @apply flex items-center justify-between w-full text-[15px] text-[#333]
-}
+
 .rooms .rooms-details .room .price{
     @apply mt-3 text-blue-950 font-bold text-[18px] text-right
 }

@@ -116,3 +116,30 @@
     @apply w-20 h-20 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center mx-auto;
   
   }
+.policy{
+    @apply mt-3 pt-2 border-t-1 border-blue-950
+}
+ .policy .title{
+    @apply flex items-center justify-between
+}
+ .policy .title h4{
+@apply text-blue-950 font-[500]
+}
+.policy .title span{
+    @apply text-gray-600 text-[14px]
+}
+ .policy .cncellation{
+    @apply mt-2  flex items-center gap-x-2  text-[15px] text-[#333]
+}
+.extras{
+    @apply mt-3 pt-2 border-t-1 border-blue-950
+}
+ .extras h4{
+    @apply text-blue-950 font-[500]
+}
+.extras .info{
+    @apply mt-2  flex items-center gap-x-2  text-[15px] text-[#333]
+}
+.extras .info label{
+    @apply flex items-center justify-between w-full text-[15px] text-[#333]
+}

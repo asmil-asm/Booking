@@ -22,7 +22,7 @@
 }
 
  .allImages .boxes{
-    @apply flex flex-col gap-y-[100px] ml-5
+    @apply flex flex-col gap-y-[100px] ml-5 px-3
 }
  .allImages .boxes .box .photos{
     @apply flex gap-4 items-center

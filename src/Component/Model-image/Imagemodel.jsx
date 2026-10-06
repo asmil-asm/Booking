@@ -28,7 +28,8 @@ const hotel=hotels.find((hotel)=>String(hotel.id)===id)
 <div className="boxes">
 <div className='box'>
   <h2 id='out'>Out door</h2>
-  <div className='photos'>  {hotel.Hotel_images.outImage.map((item,index)=><img  key={index} src={item} alt='not found' />)}
+  <div className='photos'>  
+    {hotel.Hotel_images.outImage.map((item,index)=><img  key={index} src={item} alt='not found' />)}
 </div>
 </div>
 <div className="box">

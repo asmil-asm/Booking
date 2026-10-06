@@ -32,7 +32,7 @@ if(!hotel)
       <div  className='info-hotel'>
         <div className='title'>  
           <h1>{hotel.name}</h1>
-<div className='rate'>{Array.from({length:hotel.rate}).map(()=><FaStar/>)}</div>
+<div className='rate'>{Array.from({length:hotel.rate}).map((index)=><FaStar key={index}/>)}</div>
 </div>
 <div className='location'>
   <CiLocationOn/>
@@ -41,7 +41,7 @@ if(!hotel)
 <div className='images'>
 
 <div className='imageOut'>
-  <div>    {hotel.Hotel_images.outImage.map((item)=><img onClick={setImages} src={item} alt='not found'/>)}
+  <div>    {hotel.Hotel_images.outImage.map((item,index)=><img   key={index} onClick={setImages} src={item} alt='not found'/>)}
 
 </div>
 </div>
