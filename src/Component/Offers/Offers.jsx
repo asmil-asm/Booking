@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import {useHotelsQuery} from '../../services/HandleAPI'
 import {useNavigate} from 'react-router-dom'
 import Loading from '../Loading/Laoding';
+import './Offers.css'
 const Offers = () => {
       const navigate=useNavigate()
     const {data:hotels,isLoading}=useHotelsQuery()

@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import useHotelsContent from '../../Hooks/useHotelsContent';
 import { useChange } from '../../store/useStore';
 import { useNavigate } from 'react-router-dom';
+import './HotelsCity.css'
 const HotelsCity = () => {
    const { uniqueCountries } = useHotelsContent();
    const navigate=useNavigate()

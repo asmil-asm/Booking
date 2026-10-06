@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import './Hero.css'
 import Form from '../Forms/Form'
-import {NavLink,Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 const Hero = () => {
     
    

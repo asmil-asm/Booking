@@ -4,6 +4,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import useHotelsContent from '../../Hooks/useHotelsContent';
 import { useChange } from '../../store/useStore';
 import { useNavigate } from 'react-router-dom';
+import './Typehotels.css'
 const Typehotels = () => {
   const navigate=useNavigate()
 const { uniqueTypes } = useHotelsContent();

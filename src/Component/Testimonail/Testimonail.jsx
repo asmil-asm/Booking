@@ -2,6 +2,7 @@ import test_1 from '/assets/Testimonail/testimonial_1-D0iGHlEA.jpg'
 import test_2 from '/assets/Testimonail/testimonial_2-DrE2iePz.png'
 import test_3 from '/assets/Testimonail/testimonial_3-jaYYUgLe.jpg'
 import { FaStar } from "react-icons/fa";
+import './Testimonail.css'
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
 const Testimonail = () => {

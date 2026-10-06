@@ -4,7 +4,7 @@ import { GiBarbecue } from "react-icons/gi";
 import { GiJelly } from "react-icons/gi";
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
-
+import './Amenities.css'
 const Amenities = () => {
     let activties=[
         {icons:<GiBarbecue/>, text:'Picnic Area with BBQ Facilities'},
