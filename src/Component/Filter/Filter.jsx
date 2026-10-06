@@ -2,10 +2,16 @@ import { MdFilterList } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { useActions, useChange } from '../../store/useStore';
 import useHotelsContent from "../../Hooks/useHotelsContent";
+import { useLocation } from "react-router-dom";
 import './Filter.css';
+import { useEffect } from "react";
 
 const Filter = () => {
   const { showFilter, setShowFilter } = useActions();
+  const loacation=useLocation();
+  useEffect(()=>{
+    setShowFilter(false)
+  },[loacation])
   const { 
     filter, 
     setSearch, 

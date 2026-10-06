@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
+import DelayedLoading from '../Loading/DelayedLoading';
 
 NProgress.configure({
   showSpinner: false,
@@ -10,20 +10,13 @@ NProgress.configure({
   trickleSpeed: 200,
 });
 
-export default function PageLoader() {
-  const location = useLocation();
-
+export default function PageLoader({ delay = 300 }) {
   useEffect(() => {
     NProgress.start();
-
-    const timer = setTimeout(() => {
-      NProgress.done();
-    }, 300);
-
     return () => {
-      clearTimeout(timer);
+      NProgress.done();
     };
-  }, [location.pathname, location.search]);
+  }, []);
 
-  return null;
+  return <DelayedLoading delay={delay} />;
 }

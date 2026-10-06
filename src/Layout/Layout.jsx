@@ -10,9 +10,8 @@ const Layout=()=>{
     return(
         <div className="layout min-h-screen ">
             <Header />
-            <PageLoader/>
             <main className=" min-h-[60vh]">
- <Suspense key={location.pathname} fallback={<DelayedLoading delay={300}/>} >
+ <Suspense key={location.pathname} fallback={<PageLoader delay={300}/>} >
           <Outlet />
         </Suspense>            </main>
             <ScrollRestoration />

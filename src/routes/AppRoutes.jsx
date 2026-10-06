@@ -1,31 +1,21 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { lazy, Suspense } from "react";
-import Loading from "../Component/Loading/Loading";
+import { lazy} from "react";
 import ProtectedRoute from "./ProtectedRoute";
-
+import Layout from "../Layout/Layout";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 // Lazy loading 
-const Layout = lazy(() => import('../Layout/Layout'));
 const Home = lazy(() => import("../pages/Home/Home"));
 const About = lazy(() => import('../pages/About/About'));
 const Contact = lazy(() => import('../pages/Contact/Contact'));
 const Hotels = lazy(() => import("../pages/Hotels/Hotels"));
-const Error = lazy(() => import('../pages/Error/Error'));
 const HotelData = lazy(() => import('../pages/HotelData/HotelData'));
 const Booking = lazy(() => import('../pages/Booking/Booking'));
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: (
-      <Suspense fallback={<Loading/>}>
-        <Layout />
-        </Suspense>
-    ),
-    errorElement: (
-      <Suspense fallback={<Loading />}>
-        <Error />
-      </Suspense>
-    ),
+    element: <Layout />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <Home /> },
       { path: 'about-us', element: <About /> },

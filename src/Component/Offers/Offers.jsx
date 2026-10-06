@@ -11,7 +11,7 @@ import './Offers.css'
 const Offers = () => {
       const navigate=useNavigate()
     const {data:hotels,isLoading}=useHotelsQuery()
-    if(isLoading || !hotels) return <Loading/>
+    if(isLoading || !hotels) return []
     const offers=Array.isArray(hotels)?hotels.filter((hotel)=>hotel.offer>20): []
     if(!offers) return []
   return (
