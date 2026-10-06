@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
-import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 export default defineConfig({
   plugins: [
@@ -13,27 +13,50 @@ export default defineConfig({
       webp: { lossy: true, quality: 75 },
     }),
   ],
-
- 
-
   build: {
-    rollupOptions: {
+    rolldownOptions: {         
       output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'query': ['@tanstack/react-query'],
-          'motion': ['framer-motion'],
-          'clerk': ['@clerk/clerk-react'],
-          'swiper': ['swiper'],
-          'icons': ['react-icons'],
+        codeSplitting: {
+          groups: [
+            {
+              name: 'react-vendor',
+              test: /[\\/]node_modules[\\/](react|react-dom|react-router-dom)[\\/]/,
+              priority: 30,
+            },
+            {
+              name: 'query',
+              test: /[\\/]node_modules[\\/]@tanstack[\\/]/,
+              priority: 25,
+            },
+            {
+              name: 'motion',
+              test: /[\\/]node_modules[\\/]framer-motion[\\/]/,
+              priority: 20,
+            },
+            {
+              name: 'clerk',
+              test: /[\\/]node_modules[\\/]@clerk[\\/]/,
+              priority: 20,
+            },
+            {
+              name: 'swiper',
+              test: /[\\/]node_modules[\\/]swiper[\\/]/,
+              priority: 20,
+            },
+            {
+              name: 'icons',
+              test: /[\\/]node_modules[\\/]react-icons[\\/]/,
+              priority: 15,
+            },
+            {
+              name: 'vendor',
+              test: /[\\/]node_modules[\\/]/,
+              priority: 5,
+              maxSize: 500000,   
+            },
+          ],
         },
       },
     },
-    chunkSizeWarningLimit: 1000,
   },
-
-  server: {
-    port: 5173,
-    open: true,
-  },
-});
+})
