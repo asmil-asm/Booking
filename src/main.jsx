@@ -14,16 +14,14 @@ if (!PUBLISHABLE_KEY) {
 const queryClient = new QueryClient();
 
 async function enableMocking() {
-  if (import.meta.env.MODE !== 'development') {
-    return;
-  }
+  const { worker } = await import('./mocks/browser')
 
-  const { worker } = await import('./mocks/browser');
-  
   return worker.start({
-    onUnhandledRequest: 'bypass', // تجاهل الطلبات الخارجية وغير المعرفة مثل طلبات Vite و Clerk
-    quiet: true,                  // إيقاف طباعة التحذيرات واللوجات الزائدة في الـ Console
-  });
+    onUnhandledRequest: 'bypass',
+    serviceWorker: {
+      url: '/mockServiceWorker.js',
+    },
+  })
 }
 
 enableMocking().then(() => {
